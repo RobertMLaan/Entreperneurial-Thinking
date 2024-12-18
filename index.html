@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .pricing-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .pricing-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .pricing-description {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        .pricing-features li {
+            margin: 10px 0;
+            font-size: 0.9rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-container">
+        <!-- Launch Plan -->
+        <div class="pricing-card">
+            <div class="pricing-title">Launch</div>
+            <div class="pricing-price">€3000</div>
+            <div class="pricing-description">
+                Leg de basis voor AI-integratie met essentiële tools en begeleiding.
+            </div>
+            <ul class="pricing-features">
+                <li>Monthly Introductory Webinar attendance</li>
+                <li>Intake consultation met ILEF experts</li>
+            </ul>
+            <a href="#" class="cta-button">Kies Launch</a>
+        </div>
+
+        <!-- Take-Off Plan -->
+        <div class="pricing-card">
+            <div class="pricing-title">Take-Off</div>
+            <div class="pricing-price">€4000</div>
+            <div class="pricing-description">
+                Verhoog je ontwerpproces met op maat gemaakte AI-integratie.
+            </div>
+            <ul class="pricing-features">
+                <li>Monthly Introductory Webinar attendance</li>
+                <li>Intake consultation met ILEF experts</li>
+                <li>Customized AI Training</li>
+                <li>AI Software Integration Support</li>
+                <li>Performance Monitoring</li>
+            </ul>
+            <a href="#" class="cta-button">Kies Take-Off</a>
+        </div>
+
+        <!-- Sky Plan -->
+        <div class="pricing-card">
+            <div class="pricing-title">Sky</div>
+            <div class="pricing-price">€5000</div>
+            <div class="pricing-description">
+                Bereik meesterschap met full-service AI-integratie, ontworpen om jouw workflow optimaal te versnellen.
+            </div>
+            <ul class="pricing-features">
+                <li>Monthly Introductory Webinar attendance</li>
+                <li>Intake consultation met ILEF experts</li>
+                <li>Customized AI Training</li>
+                <li>AI Software Integration Support</li>
+                <li>Performance Monitoring</li>
+                <li>Full Customization Aligned with Your Design Style</li>
+            </ul>
+            <a href="#" class="cta-button">Kies Sky</a>
+        </div>
+    </div>
+</body>
+</html>
 
